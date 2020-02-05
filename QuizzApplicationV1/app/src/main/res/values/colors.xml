@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorRed">#D3014D</color>
+    <color name="colorWhite">#FFFF</color>
+    <color name="colorTransparentWhite">#cccccc</color>
+    <color name="grey">#c4c4c4</color>
+    <color name="darkGrey">#111111</color>
+    <color name="bluzdark">#2f333f</color>
+    <color name="bluzdarkPlus">#FF191D27</color>
+    <color name="bluelightplus">#FF41ADE2</color>
+    <color name="bluelight">#0F516F</color>
+    <color name="bluzdarkTransparent">#432F333F</color>
+    <color name="green">#45bc62</color>
+    <color name="orange">#eaad43</color>
+
+
+</resources>

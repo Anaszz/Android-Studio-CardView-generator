@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slideViewpager_main"
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="120dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/slideViewpager_main"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background2"
+        android:text="@string/btn_play"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_play"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        ></LinearLayout>
+
+
+</RelativeLayout>

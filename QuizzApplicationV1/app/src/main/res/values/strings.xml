@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShrekApplication</string>
+    <string name="bottom_navigation_menu_landscape">Landscape</string>
+    <string name="bottom_navigation_menu_logos">Logo</string>
+    <string name="bottom_navigation_menu_android">Android</string>
+    <string name="btn_play">PLAY</string>
+    <string name="valider">Valider</string>
+    <string name="descr_txt">Unde Rufinus ea tempestate praefectus praetorio ad discrimen trusus est ultimumper et saevum, ut satisfaceret atque mota.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

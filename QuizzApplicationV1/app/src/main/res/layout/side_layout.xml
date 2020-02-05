@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_slide"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/icon_game2"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/header_slide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="HEADER"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/image_slide"/>
+
+    <TextView
+        android:id="@+id/description_slide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/descr_txt"
+        android:textSize="18sp"
+        android:padding="35dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/header_slide"/>
+
+
+</RelativeLayout>

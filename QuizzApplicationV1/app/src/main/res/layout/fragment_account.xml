@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bluzdarkPlus"
+    >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/layout_backgroundpopup"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        >
+
+
+    <LinearLayout
+        android:id="@+id/layoutHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/quitIcon"
+        android:layout_marginTop="3dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/avatar"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMIN SPACE"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add your data here"
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="3dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/layoutHead"
+        android:layout_marginTop="20dp">
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:background="@drawable/editext_background"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/editext_leftdrawable"
+            android:hint="Enter name..."
+            android:textSize="15dp"
+            android:drawablePadding="10dp"
+
+            />
+        <EditText
+            android:id="@+id/editText_surname"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:background="@drawable/editext_background"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/editext_leftdrawable_flam"
+            android:layout_marginTop="19dp"
+            android:hint="Enter surname..."
+            android:textSize="15dp"
+            android:drawablePadding="10dp"
+            />
+        <EditText
+            android:id="@+id/editText_mnemonic"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:background="@drawable/editext_background"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/editext_leftdrawable_key"
+            android:layout_marginTop="19dp"
+            android:hint="Enter image..."
+            android:textSize="15dp"
+            android:drawablePadding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editText_id"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:background="@drawable/editext_background"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/editext_leftdrawable_phone"
+            android:layout_marginTop="19dp"
+            android:hint="Enter id..."
+            android:textSize="15dp"
+            android:drawablePadding="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/layoutContent"
+        android:layout_marginTop="25dp">
+        <Button
+            android:id="@+id/btnAddData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADMIT"
+            android:textSize="13dp"
+            android:background="@drawable/button_background"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+      />
+
+            <Button
+                android:id="@+id/btnDelData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:background="@drawable/button_redbackground"
+                android:textColor="@color/colorRed"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:layout_marginLeft="10dp"/>
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layoutButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutButton"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            >
+
+            <Button
+                android:id="@+id/btnUpData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UPDATE"
+                android:textStyle="bold"
+                android:textSize="13dp"
+                android:background="@drawable/button_bluebackground"
+                android:textColor="@color/colorWhite"
+            />
+
+            <Button
+                android:id="@+id/btnShowData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SHOW"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_background2"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
